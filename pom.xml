@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>fcmb.com</groupId>
-    <artifactId>userSecurity</artifactId>
+    <groupId>Transport.Mgt</groupId>
+    <artifactId>Transport Management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Hotel Management</name>
-    <description>Hotel Management </description>
+    <name>Transport Management</name>
+    <description>Transport Management </description>
 
     <properties>
         <java.version>17</java.version>
@@ -44,12 +44,6 @@
             <artifactId>modelmapper</artifactId>
             <version>${mapper.version}</version>
         </dependency>
-
-<!--        <dependency>-->
-<!--            <groupId>commons-io</groupId>-->
-<!--            <artifactId>commons-io</artifactId>-->
-<!--            <version>2.8.0</version>-->
-<!--        </dependency>-->
 
         <dependency>
             <groupId>com.google.code.gson</groupId>
