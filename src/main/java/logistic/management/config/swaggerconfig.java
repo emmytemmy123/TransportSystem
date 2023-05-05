@@ -47,7 +47,7 @@ public class swaggerconfig {
                 .apiInfo(apiInfo())
                 .securityContexts(Arrays.asList(securityContext()))
                 .securitySchemes(Arrays.asList(apiKey()))
-                .select().apis(RequestHandlerSelectors.basePackage("transport.management.controller"))
+                .select().apis(RequestHandlerSelectors.basePackage("logistic.management.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

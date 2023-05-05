@@ -23,11 +23,5 @@ public class PaymentRequest  {
        @NotNull(message = MessageUtil.INVALID_NAME)
        private UUID ordersId;
 
-        @NotNull(message = MessageUtil.INVALID_NAME)
-        private String tranReference;
-
-
-
-
 
 }

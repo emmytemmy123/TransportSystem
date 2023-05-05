@@ -10,11 +10,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>Transport.Mgt</groupId>
-    <artifactId>Transport Management</artifactId>
+    <groupId>Logistic.Mgt</groupId>
+    <artifactId>Logistic Management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Transport Management</name>
-    <description>Transport Management </description>
+    <name>Logistic Management</name>
+    <description>Logistic Management </description>
 
     <properties>
         <java.version>17</java.version>

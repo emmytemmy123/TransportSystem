@@ -11,13 +11,6 @@ import java.util.UUID;
 @Data
 public class OrderItemRequest {
 
-    @NotNull(message = MessageUtil.INVALID_NAME)
-    @NotEmpty(message = MessageUtil.INVALID_NAME)
-    private String itemName;
-
-    @NotNull(message = MessageUtil.INVALID_NAME)
-//    @NotEmpty(message = INVALID_NAME)
-    private Double salesPrice;
 
     @NotNull(message = MessageUtil.INVALID_NAME)
 //    @NotEmpty(message = INVALID_NAME)

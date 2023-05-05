@@ -98,7 +98,6 @@ public class PaymentServiceImpl implements PaymentService {
 
         payment.setBalance(existingOrders.getTotalAmountDue() - request.getAmount());
         payment.setPaidBy(existingOrders.getOrderBy());
-//        payment.setTranReference(request.getTranReference());
         payment.setOrder(existingOrders);
 
         paymentRepository.save(payment);

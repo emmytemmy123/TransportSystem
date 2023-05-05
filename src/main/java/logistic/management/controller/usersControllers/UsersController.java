@@ -9,7 +9,6 @@ import logistic.management.model.dto.response.userResponse.UserResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
-import transport.management.model.dto.request.userRequest.*;
 import logistic.management.services.user.CustomerService;
 import logistic.management.services.user.SellerService;
 import logistic.management.services.user.UserService;

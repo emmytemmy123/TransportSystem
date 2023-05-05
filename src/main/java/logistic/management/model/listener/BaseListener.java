@@ -60,11 +60,6 @@ public class BaseListener {
             productCategory.setUuid(UUID.randomUUID());
         }
 
-        else if(data instanceof Delivery){
-            Delivery delivery = (Delivery) data;
-            delivery.setUuid(UUID.randomUUID());
-        }
-
         else if(data instanceof OrderItems){
             OrderItems orderItems = (OrderItems) data;
             orderItems.setUuid(UUID.randomUUID());

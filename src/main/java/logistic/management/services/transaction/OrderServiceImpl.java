@@ -40,7 +40,6 @@ public class OrderServiceImpl implements OrderService{
     private final OrderItemsRepository orderItemsRepository;
     private final ProductRepository productRepository;
     private final CustomerRepository customerRepository;
-    private final DeliveryRepository deliveryRepository;
 
 
     @Override
@@ -154,13 +153,14 @@ public class OrderServiceImpl implements OrderService{
             }
 
             orders.setDeliveryType(request.getDeliveryType());
+            orders.setDeliveryCost(totalWeight * existingProduct.getDeliveryCost());
 
-            String delivery = "door delivery";
-            double deliveryCostPerKg = 500;
-            if(delivery == request.getDeliveryType())
-                orders.setDeliveryCost(totalWeight * (deliveryCostPerKg));
-            else
-            orders.setDeliveryCost((double) 0);
+//            String delivery = "door delivery";
+//            double deliveryCostPerKg = 500;
+//            if(delivery == request.getDeliveryType())
+//            orders.setDeliveryCost(totalWeight * existingProduct.getDeliveryCost());
+//            else
+//            orders.setDeliveryCost((double) 0);
 
             orders.setTotalQuantity(totalQuantity);
             orders.setTotalAmount(totalAmount + orders.getDeliveryCost());

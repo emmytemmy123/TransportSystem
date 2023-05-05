@@ -32,6 +32,7 @@ public class Product extends BaseEntity {
     private String photo;
     private String description;
     private String postedBy;
+    private Double deliveryCost;
 
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)

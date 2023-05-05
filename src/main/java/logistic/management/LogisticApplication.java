@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @RequiredArgsConstructor
-public class TransportApplication {
+public class LogisticApplication {
 
   /*  @PostConstruct
     public void initUsers() {
@@ -20,7 +20,7 @@ public class TransportApplication {
 
 	public static void main(String[] args) {
 
-        SpringApplication.run(TransportApplication.class, args);
+        SpringApplication.run(LogisticApplication.class, args);
 	}
 
 

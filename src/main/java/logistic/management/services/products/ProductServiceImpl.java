@@ -158,6 +158,7 @@ public class ProductServiceImpl implements ProductService {
         product.setWarranty(request.getWarranty());
         product.setWeight(request.getWeight());
         product.setWidth(request.getWidth());
+        product.setDeliveryCost(request.getDeliveryCost());
 
         productRepository.save(product);
 

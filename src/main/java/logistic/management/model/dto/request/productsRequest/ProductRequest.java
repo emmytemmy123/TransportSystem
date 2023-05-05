@@ -33,6 +33,10 @@ public class ProductRequest  {
      private Double salesPrice;
 
      @NotNull(message = MessageUtil.INVALID_NAME)
+     @Min(value=50, message = MessageUtil.INVALID_NAME)
+     private Double deliveryCost;
+
+     @NotNull(message = MessageUtil.INVALID_NAME)
      @Min(value = 1, message = MessageUtil.INVALID_NAME)
      private Integer capacity;
 
